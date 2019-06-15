@@ -5,6 +5,7 @@
 }
 .nav div {
     display: inline-block;
+    width: 40px;
 }
 .nav div div {
     display: inline-block;
