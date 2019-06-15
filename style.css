@@ -1,6 +1,7 @@
 
 .nav h2{
     display: inline-block;
+    width: 40px;
 }
 .nav div {
     display: inline-block;
