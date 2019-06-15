@@ -1,0 +1,10 @@
+
+.nav h2{
+    display: inline-block;
+}
+.nav div {
+    display: inline-block;
+}
+.nav div div {
+    display: inline-block;
+} 
