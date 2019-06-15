@@ -1,11 +1,11 @@
 
 .nav h2{
     display: inline-block;
-    width: 40px;
+    
 }
 .nav div {
     display: inline-block;
-    width: 40px;
+    float: right;
 }
 .nav div div {
     display: inline-block;
