@@ -3,10 +3,15 @@
     border-bottom: 1px solid red;
     position: relative;
     height: 60px;
+    padding: 0px 100px;
 }
 
 .nav h2{
     display: inline-block;
+    margin: 0px;
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     
 }
 .nav-wrapper {
@@ -16,8 +21,13 @@
 }
 .nav div {
     display: inline-block;
+    height: 100%;
+    
     
 } 
+ .nav-wrapper div a {
+    line-height: 60px;
+ }
 
 /* seach  */
 
