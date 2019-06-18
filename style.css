@@ -112,12 +112,32 @@ body{
   
   /*Resize the wrap to see the search bar change!*/
   .wrap{
-    width: 350px;
-    position: absolute;
+    width: 100%;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
 
   }
+
+h6 {
+    text-align: center;
+    margin-top: 125px;
+    color: white;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   @media screen and (max-width: 388px) {
       .wrap {
