@@ -137,6 +137,7 @@ h6 {
 .arrow a::after {
   content:"\2191";
   display: block;
+  color: white;
 }
 
 
