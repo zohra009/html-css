@@ -128,11 +128,12 @@ h6 {
 
 .arrow a {
   background: #81d398;
-  text-decoration:none;
+  text-decoration: none;
   border-radius: 50%;
   display: block;
   height: 69px;
   width: 69px;
+  margin: -17px 589px;
 }
 .arrow a::after {
   content:"\2191";
