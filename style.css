@@ -141,6 +141,7 @@ h6 {
   font-size: 45px;
   text-align: center;
   padding: 10px;
+  transform: rotate(180deg);
 }
 
 
