@@ -145,7 +145,10 @@ h6 {
   transform: rotate(180deg);
 }
 
-
+.create h6 {
+  text-align: center;
+  color: black;
+}
 
 
 
