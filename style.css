@@ -152,6 +152,19 @@ h6 {
   font-size: 16px;
 }
 
+.create button {
+  width: 164px;
+  height: 34px;
+  border: 1px solid #81d398;
+  background: #736fe0;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  margin: -36px 537px;
+}
+
 
 
 
