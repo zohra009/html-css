@@ -133,7 +133,10 @@ h6 {
   display: block;
   height: 60px;
   width: 60px;
-  margin: -17px 589px;
+  margin: -17px 0px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .arrow a::after {
   content:"\2191";
@@ -162,20 +165,62 @@ h6 {
   border-radius: 8px;
   cursor: pointer;
   font-size: 13px;
-  margin: -36px 537px;
+  margin: -36px auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .services h5 {
   font-weight: normal;
     font-size: 20px;
-    margin: 58px 566px;
-    text-decoration: underline;
+    margin: 58px auto 0px;
+    /* display: inline-block; */
+    /* width: 100%; */
+    text-align: center;
+   
+    
+}
+
+.services p {
+      /* content: ""; */
+      border-top: 0.5px solid black;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      width: 50px;
+      /* background-color: red; */
+      height: 30px;
+      transform: translateX(-50%);
+      left: 50%;
+      margin-top: 10px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 500px;
+  width: 80%;
+  margin: 0px auto;
+  grid-gap: 10px;
+}
+
+.services-card {
+  border: 1px;
+  background: #fcfcfd;
 }
 
 
+.button-wrap button:nth-of-type(1){
+  background: red;
+  color: blue;
+}
 
-
-
+.button-wrap button:last-of-type{
+  background: white;
+  color: blue;
+}
 
 
 
@@ -183,5 +228,15 @@ h6 {
       .wrap {
           width: 90%;
       }
+  }
+
+  @media screen and (min-width: 700px) {
+    .services-grid {
+       width: 90%;
+       grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        height: auto;
+        grid-gap: 10px 20px;
+    }
   }
 
