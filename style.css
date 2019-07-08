@@ -213,9 +213,9 @@ h6 {
 
 
 .button-wrap button:nth-of-type(1){
-  background: yellow;
+  background: #7449d7;
   color: blue;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .button-wrap button:last-of-type{
