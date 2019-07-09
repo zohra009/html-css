@@ -234,6 +234,12 @@ h6 {
   font-weight: normal;
 }
 
+.contents h5 {
+  font-family: initial;
+  font-size: 15px;
+  font-weight: normal;
+}
+
 .button-wrap {
   margin: 55px 3px;
 }
