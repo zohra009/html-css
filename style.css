@@ -229,8 +229,19 @@ h6 {
 }
 
 .button-wrap button:last-of-type{
-  background: white;
-  color: blue;
+  width: 106px;
+    height: 21px;
+    /* border: 1px solid #81d398; */
+    /* background: #736fe0; */
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 11px;
+    margin: -36px auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-41%);
 }
 
 
