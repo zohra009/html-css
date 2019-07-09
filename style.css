@@ -227,6 +227,13 @@ h6 {
   grid-gap: 25px;
 }
 
+.contents h4 {
+  color: #736fe0;
+  font-family: fantasy;
+  font-size: 19px;
+  font-weight: normal;
+}
+
 .button-wrap {
   margin: 55px 3px;
 }
