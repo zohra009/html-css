@@ -157,14 +157,14 @@ h6 {
 
 .create button {
   width: 164px;
-  height: 34px;
+  height: 26px;
   border: 1px solid #81d398;
   background: #736fe0;
   text-align: center;
   color: #fff;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 11px;
   margin: -36px auto;
   position: relative;
   left: 50%;
