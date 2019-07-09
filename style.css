@@ -210,6 +210,11 @@ h6 {
   border-radius: 7px;
   border: 2px solid #f6f6f6;
   background: white;
+  
+}
+
+.services-card h5 {
+  text-transform: uppercase;
 }
 
 
