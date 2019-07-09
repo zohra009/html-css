@@ -177,9 +177,11 @@ h6 {
     margin: 58px auto 0px;
     /* display: inline-block; */
     /* width: 100%; */
-    text-align: center;
-   
-    
+    text-align: center;   
+}
+
+.services-card h5 {
+  text-transform: uppercase;
 }
 
 .services p {
@@ -213,9 +215,7 @@ h6 {
   
 }
 
-.services-card h5 {
-  text-transform: uppercase;
-}
+
 
 .ready-account {
   display: grid;
@@ -227,6 +227,9 @@ h6 {
   grid-gap: 25px;
 }
 
+.contents {
+  margin: -16px 4px;
+}
 .contents h4 {
   color: #736fe0;
   font-family: fantasy;
@@ -238,6 +241,7 @@ h6 {
   font-family: initial;
   font-size: 15px;
   font-weight: normal;
+  color: #752fd3;
 }
 
 .button-wrap {
