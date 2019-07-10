@@ -229,7 +229,7 @@ h6 {
 
 .contents {
   margin: -21px 4px;
-  row-gap: 0px;
+  /* row-gap: 0px; */
 }
 .contents h4 {
   color: #736fe0;
