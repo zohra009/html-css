@@ -243,6 +243,8 @@ h6 {
   font-size: 15px;
   font-weight: normal;
   color: #752fd3;
+  position: relative;
+  margin: -33px auto;
 }
 
 .button-wrap {
