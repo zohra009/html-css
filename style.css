@@ -236,6 +236,8 @@ h6 {
   font-family: fantasy;
   font-size: 19px;
   font-weight: normal;
+  position: relative;
+  margin: 60px 0px 31px 0px;
 }
 
 .contents h5 {
