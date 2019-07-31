@@ -270,14 +270,13 @@ h6 {
 }
 
 .button-wrap button:last-of-type{
-      /* border: 1px solid #81d398; */
-    /* background: #736fe0; */
+    
     text-align: center;
     color: black;
     border-radius: 5px;
     cursor: pointer;
     font-size: 11px;
-    /* margin: -36px auto; */
+ 
     position: relative;
     height: 28px;
 
